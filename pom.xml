@@ -9,38 +9,302 @@
     <name>My Example</name>
          
 <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
+
+<!-- https://mvnrepository.com/artifact/org.antlr/antlr-runtime -->
 <dependency>
-    <groupId>org.apache.thrift</groupId>
-    <artifactId>libthrift</artifactId>
-    <version>0.10.0</version>
+    <groupId>org.antlr</groupId>
+    <artifactId>antlr-runtime</artifactId>
+    <version>3.5.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.3.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.10</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-client -->
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-client</artifactId>
+    <version>2.7.1</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-framework</artifactId>
+    <version>2.7.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-recipes -->
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-recipes</artifactId>
+    <version>2.7.1</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-x-discovery -->
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-x-discovery</artifactId>
+    <version>2.7.1</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>18.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+<dependency>
+    <groupId>com.google.protobuf</groupId>
+    <artifactId>protobuf-java</artifactId>
+    <version>2.6.1</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.9.5</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.5</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+    <version>2.9.5</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-core-asl -->
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-core-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+<dependency>
+    <groupId>joda-time</groupId>
+    <artifactId>joda-time</artifactId>
+    <version>2.7</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.codahale.metrics/metrics-core -->
+<dependency>
+    <groupId>com.codahale.metrics</groupId>
+    <artifactId>metrics-core</artifactId>
+    <version>3.0.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.codahale.metrics/metrics-jvm -->
+<dependency>
+    <groupId>com.codahale.metrics</groupId>
+    <artifactId>metrics-jvm</artifactId>
+    <version>3.0.2</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
+<dependency>
+    <groupId>org.reflections</groupId>
+    <artifactId>reflections</artifactId>
+    <version>0.9.9</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.typesafe/config -->
+<dependency>
+    <groupId>com.typesafe</groupId>
+    <artifactId>config</artifactId>
+    <version>1.2.1</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+<dependency>
+    <groupId>org.apache.zookeeper</groupId>
+    <artifactId>zookeeper</artifactId>
+    <version>3.4.6</version>
     <type>pom</type>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.thrift/libfb303 -->
-<dependency>
-    <groupId>org.apache.thrift</groupId>
-    <artifactId>libfb303</artifactId>
-    <version>0.10.0</version>
-    <type>pom</type>
-</dependency>
-
          
-<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 <dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
-    <version>4.5.3</version>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.12</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
-<dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpcore</artifactId>
-    <version>4.4.6</version>
-</dependency>
-
          
+<!-- https://mvnrepository.com/artifact/io.netty/netty-buffer -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-buffer</artifactId>
+    <version>4.0.48.Final</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/io.netty/netty-codec -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-codec</artifactId>
+    <version>4.0.48.Final</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/io.netty/netty-common -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-common</artifactId>
+    <version>4.0.48.Final</version>
+</dependency>
+         
+ <!-- https://mvnrepository.com/artifact/io.netty/netty-handler -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-handler</artifactId>
+    <version>4.0.48.Final</version>
+</dependency>
+        
+<!-- https://mvnrepository.com/artifact/io.netty/netty-transport -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-transport</artifactId>
+    <version>4.0.48.Final</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/io.netty/netty-tcnative -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-tcnative</artifactId>
+    <version>2.0.1.Final</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/com.carrotsearch/hppc -->
+<dependency>
+    <groupId>com.carrotsearch</groupId>
+    <artifactId>hppc</artifactId>
+    <version>0.7.1</version>
+</dependency>
 
-    </dependencies>
+<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.2</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+<dependency>
+    <groupId>commons-configuration</groupId>
+    <artifactId>commons-configuration</artifactId>
+    <version>1.6</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-common</artifactId>
+    <version>2.7.1</version>
+    <scope>provided</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-auth -->
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-auth</artifactId>
+    <version>2.7.1</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill/drill-common -->
+<dependency>
+    <groupId>org.apache.drill</groupId>
+    <artifactId>drill-common</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded -->
+<dependency>
+    <groupId>org.apache.drill.contrib.storage-hive</groupId>
+    <artifactId>drill-hive-exec-shaded</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill.exec/drill-java-exec -->
+<dependency>
+    <groupId>org.apache.drill.exec</groupId>
+    <artifactId>drill-java-exec</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill/drill-logical -->
+<dependency>
+    <groupId>org.apache.drill</groupId>
+    <artifactId>drill-logical</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill.memory/drill-memory-base -->
+<dependency>
+    <groupId>org.apache.drill.memory</groupId>
+    <artifactId>drill-memory-base</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill/drill-protocol -->
+<dependency>
+    <groupId>org.apache.drill</groupId>
+    <artifactId>drill-protocol</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill.exec/drill-rpc -->
+<dependency>
+    <groupId>org.apache.drill.exec</groupId>
+    <artifactId>drill-rpc</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+<!-- https://mvnrepository.com/artifact/org.apache.drill.exec/vector -->
+<dependency>
+    <groupId>org.apache.drill.exec</groupId>
+    <artifactId>vector</artifactId>
+    <version>1.12.0</version>
+</dependency>
+         
+</dependencies>
 </project>
