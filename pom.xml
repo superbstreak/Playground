@@ -254,56 +254,56 @@
 <dependency>
     <groupId>org.apache.drill</groupId>
     <artifactId>drill-common</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded -->
 <dependency>
     <groupId>org.apache.drill.contrib.storage-hive</groupId>
     <artifactId>drill-hive-exec-shaded</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill.exec/drill-java-exec -->
 <dependency>
     <groupId>org.apache.drill.exec</groupId>
     <artifactId>drill-java-exec</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill/drill-logical -->
 <dependency>
     <groupId>org.apache.drill</groupId>
     <artifactId>drill-logical</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill.memory/drill-memory-base -->
 <dependency>
     <groupId>org.apache.drill.memory</groupId>
     <artifactId>drill-memory-base</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill/drill-protocol -->
 <dependency>
     <groupId>org.apache.drill</groupId>
     <artifactId>drill-protocol</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill.exec/drill-rpc -->
 <dependency>
     <groupId>org.apache.drill.exec</groupId>
     <artifactId>drill-rpc</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 <!-- https://mvnrepository.com/artifact/org.apache.drill.exec/vector -->
 <dependency>
     <groupId>org.apache.drill.exec</groupId>
     <artifactId>vector</artifactId>
-    <version>1.12.0</version>
+    <version>1.13.0</version>
 </dependency>
          
 </dependencies>
